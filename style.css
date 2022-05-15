@@ -74,11 +74,13 @@ body{
 }
 
 .initialimg{
-	display: block;
+	display: flex;
 	margin: 0 auto;
-	width: 50%;
-	height: 50%;
+	height: 300px;
+}
 
+div .img{
+	max-height: auto;
 }
 
 /*FOOTER*/
